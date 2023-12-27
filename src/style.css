@@ -105,6 +105,27 @@
   text-align: start;
   font-weight: bold;
 }
+.lover {
+  color: white;
+  font-family: josefin;
+  text-align: center;
+  font-size: 55px;
+}
+.rating-main {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+.rating1 {
+  border-right: 1px solid white;
+}
+.rate-para {
+  color: white;
+  font-family: josefin;
+  font-size: 30px;
+  line-height: 30px;
+}
 @media screen and (max-width: 768px) {
   .sec2 {
     margin-top: -10%;
@@ -128,5 +149,9 @@
     border-radius: 4px;
     width: 40%;
     height: 4px;
+  }
+  .rating-main {
+    display: block;
+    flex-direction: column;
   }
 }
