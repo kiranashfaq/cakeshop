@@ -1,0 +1,132 @@
+@font-face {
+  font-family: poppin;
+  src: url(./fonts/Poppins-Light.ttf);
+}
+@font-face {
+  font-family: josefin;
+  src: url(./fonts/JosefinSans-Thin.ttf);
+}
+.nav-div {
+  margin-top: -1%;
+  background-color: #0d0d0e;
+  margin-bottom: -1%;
+}
+.nav-item {
+  color: white;
+  font-family: poppin;
+  padding-right: 13px;
+  font-weight: bold;
+}
+.bg-section {
+  background-image: url(img/cakebg.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  /* margin-top: -5%; */
+}
+.bg-content {
+  position: absolute;
+  align-items: center;
+  top: 40%;
+}
+.bg-heading {
+  font-family: josefin;
+  color: white;
+  font-size: 75px;
+  text-transform: capitalize;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.but1 {
+  width: 35%;
+  height: 10vh;
+  background-color: #e5bf4a;
+  color: #000000;
+  font-family: josefin;
+  border: none;
+  font-weight: bolder;
+  margin-left: 5%;
+  transition: 1s;
+}
+.but1:hover {
+  background-color: transparent;
+  color: #e5bf4a;
+  border: 1px solid #e5bf4a;
+}
+.sec2 {
+  background-color: #0d0d0e;
+  margin-top: -6%;
+}
+.theme {
+  font-family: josefin;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+.line {
+  background-color: #e5bf4a;
+  border-radius: 4px;
+  width: 10%;
+  height: 2px;
+  margin-top: 1%;
+}
+.theme-content {
+  font-family: josefin;
+  color: #e5bf4a;
+  font-size: 30px;
+}
+.theme-content1 {
+  font-family: josefin;
+  color: white;
+  line-height: 24px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.theme-img {
+  width: 90%;
+}
+.slider-img {
+  width: 100%;
+  height: 35vh;
+}
+.slider-head {
+  color: white;
+  font-family: josefin;
+  text-align: start;
+  font-size: 34px;
+  padding-top: 2%;
+}
+.slider-price {
+  color: #e5bf4a;
+  font-family: josefin;
+  font-size: 27px;
+  text-align: start;
+  font-weight: bold;
+}
+@media screen and (max-width: 768px) {
+  .sec2 {
+    margin-top: -10%;
+  }
+  .theme {
+    font-family: josefin;
+    color: white;
+    text-align: center;
+    font-size: 35px;
+  }
+  .bg-section {
+    margin-bottom: -9%;
+  }
+  .bg-content {
+    position: absolute;
+    align-items: center;
+    top: 30%;
+  }
+  .line {
+    background-color: #e5bf4a;
+    border-radius: 4px;
+    width: 40%;
+    height: 4px;
+  }
+}
