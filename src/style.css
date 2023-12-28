@@ -124,7 +124,54 @@
   color: white;
   font-family: josefin;
   font-size: 30px;
-  line-height: 30px;
+  line-height: 40px;
+  padding: 0px 10px;
+}
+.cust-name {
+  color: white;
+  font-family: josefin;
+  font-weight: bold;
+  font-size: 17px;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.blog-main {
+  display: flex;
+  flex-direction: row;
+}
+.b-img {
+  width: 100%;
+  height: 370px;
+  border: none;
+}
+.blog-content {
+  border: 1px solid rgb(161, 155, 155);
+  /* margin-left: -2px; */
+}
+.b-head {
+  /* text-align: center; */
+  color: #e9b92a;
+  letter-spacing: 1;
+  font-weight: bold;
+  font-family: josefin;
+  word-spacing: 1;
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+.blog-more {
+  color: #e9b92a;
+  font-family: josefin;
+  padding-left: 30px;
+  font-weight: bold;
+  /* border-bottom: 1px solid #e9b92a; */
+}
+.line2 {
+  background-color: #e5bf4a;
+  border-radius: 4px;
+  width: 35%;
+  height: 2px;
+  margin-top: 1%;
 }
 @media screen and (max-width: 768px) {
   .sec2 {
@@ -153,5 +200,58 @@
   .rating-main {
     display: block;
     flex-direction: column;
+    border: none;
+  }
+  .rating1 {
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+  }
+  .rate-3 {
+    border-top: 1px solid white;
+    margin-top: 10%;
+  }
+  .customer {
+    padding-bottom: 40px;
+    border-bottom: 1px solid white;
+  }
+  .rate-para {
+    color: white;
+    font-family: josefin;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .but2 {
+    width: 95%;
+    height: 10vh;
+    background-color: #e5bf4a;
+    color: #000000;
+    font-family: josefin;
+    border: none;
+    font-weight: bolder;
+    margin-left: 5%;
+    transition: 1s;
+  }
+  .but2:hover {
+    background-color: transparent;
+    color: #e5bf4a;
+    border: 1px solid #e5bf4a;
+  }
+  .blog-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .blog-section-main {
+    display: block;
+    flex-direction: column;
+  }
+  .b-img {
+    width: 90%;
+    height: 370px;
+    border: none;
+    margin-left: 5%;
+  }
+  .blog-content{
+    border: none;
   }
 }
